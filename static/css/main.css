@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ensures full-page height */
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0; /* Small padding to separate from the table */
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    table-layout: fixed; /* Ensures equal column widths */
+    margin: 10px auto 0 auto; /* Centers table horizontally */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 33.33%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button, input[type="submit"] {
+    padding: 5px 10px;
+}
+
+.actions a {
+    margin: 0 5px;
+}
